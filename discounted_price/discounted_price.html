@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DISCOUNTED PRICE</title>
+        <style>
+            h1{
+                border-bottom: 20px solid skyblue; 
+                padding : 20px;
+                font-size: 60px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Discounted Price</h1>
+        <input type="button" value="할인가 계산" onclick="
+            let 원가 = Number(prompt('가격??'));
+            let 할인율 = Number(prompt('할인율??'))/100;
+            alert(원가*(1-할인율));
+        ">
+    </body>
+</html>
